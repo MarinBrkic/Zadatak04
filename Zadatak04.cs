@@ -1,6 +1,9 @@
-﻿internal class Program
+
+using System;
+					
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main()
     {
         Console.WriteLine("Upisi neki broj: ");
         int n = Convert.ToInt32(Console.ReadLine());
